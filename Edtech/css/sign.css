@@ -1,0 +1,117 @@
+body {
+  background-color: #e6ffcc;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar {
+  border-bottom: green solid 5px;
+}
+
+.navbar-brand {
+  font-size: 22px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: green !important;
+}
+
+h3 {
+  text-align: center;
+  color: green;
+  font-size: 20px;
+  padding: 10px 0px 0px 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type="submit"] {
+  background-color: green;
+  color: white;
+}
+
+.signinform {
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  max-width: 400px;
+  height: 340px;
+}
+
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+
+#footer {
+  background: green;
+  width: 100%;
+}
+
+#footer .container {
+  margin: auto;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  margin: 20px 0;
+}
+
+.social a {
+  color: white;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.content h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+#footer .container .content {
+  padding: 10px 20px;
+  color: white;
+}
+
+.second {
+  margin-left: 120px;
+}
+
+.third {
+  margin-left: 120px;
+}
+
+#map {
+  height: 300px;
+
+  width: 100%;
+}

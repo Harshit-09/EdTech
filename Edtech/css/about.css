@@ -1,0 +1,138 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.navbar {
+  border-bottom: green solid 5px;
+}
+
+.navbar-brand {
+  font-size: 22px;
+}
+
+h1 {
+  color: white !important;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: green !important;
+}
+
+.column {
+  margin-left: 20px;
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 5px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 100px;
+}
+
+.about-section {
+  padding: 100px;
+  text-align: center;
+  background-color: green;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: green;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/*Footer section start*/
+
+#footer {
+  background: green;
+  width: 100%;
+}
+
+#footer .container {
+  margin: auto;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  margin: 20px 0;
+}
+
+.social a {
+  color: white;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.content h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+#footer .container .content {
+  padding: 10px 20px;
+  color: white;
+}
+
+.second {
+  margin-left: 120px;
+}
+
+#map {
+  height: 300px;
+
+  width: 100%;
+}
+/*Footer section ends*/
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
